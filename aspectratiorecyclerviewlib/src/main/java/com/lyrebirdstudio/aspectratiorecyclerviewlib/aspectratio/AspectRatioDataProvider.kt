@@ -50,17 +50,6 @@ object AspectRatioDataProvider {
     ): List<AspectRatioItem> {
         return arrayListOf(
             AspectRatioItem(
-                aspectRatioSelectedWidthRes = R.dimen.width_aspect_free,
-                aspectRatioUnselectedHeightRes = R.dimen.height_aspect_free,
-                aspectRatioNameRes = R.string.aspect_free,
-                socialMediaImageRes = R.drawable.ic_aspect_icon_free,
-                aspectRatio = AspectRatio.ASPECT_FREE,
-                activeColor = activeColor,
-                passiveColor = passiveColor,
-                socialActiveColor = socialActiveColor,
-                socialPassiveColor = socialPassiveColor
-            ),
-            AspectRatioItem(
                 aspectRatioSelectedWidthRes = R.dimen.width_aspect_ins_1_1,
                 aspectRatioUnselectedHeightRes = R.dimen.height_aspect_ins_1_1,
                 aspectRatioNameRes = R.string.aspect_ins_1_1,
@@ -82,17 +71,7 @@ object AspectRatioDataProvider {
                 socialActiveColor = socialActiveColor,
                 socialPassiveColor = socialPassiveColor
             ),
-            AspectRatioItem(
-                aspectRatioSelectedWidthRes = R.dimen.width_aspect_ins_story,
-                aspectRatioUnselectedHeightRes = R.dimen.height_aspect_ins_story,
-                aspectRatioNameRes = R.string.aspect_ins_story,
-                socialMediaImageRes = R.drawable.ic_aspect_icon_instagram,
-                aspectRatio = AspectRatio.ASPECT_INS_STORY,
-                activeColor = activeColor,
-                passiveColor = passiveColor,
-                socialActiveColor = socialActiveColor,
-                socialPassiveColor = socialPassiveColor
-            ),
+            
 
             AspectRatioItem(
                 aspectRatioSelectedWidthRes = R.dimen.width_aspect_5_4,
@@ -135,17 +114,7 @@ object AspectRatioDataProvider {
                 socialActiveColor = socialActiveColor,
                 socialPassiveColor = socialPassiveColor
             ),
-            AspectRatioItem(
-                aspectRatioSelectedWidthRes = R.dimen.width_aspect_face_cover,
-                aspectRatioUnselectedHeightRes = R.dimen.height_aspect_face_cover,
-                aspectRatioNameRes = R.string.aspect_face_cover,
-                socialMediaImageRes = R.drawable.ic_aspect_icon_facebook,
-                aspectRatio = AspectRatio.ASPECT_FACE_COVER,
-                activeColor = activeColor,
-                passiveColor = passiveColor,
-                socialActiveColor = socialActiveColor,
-                socialPassiveColor = socialPassiveColor
-            ),
+         
             AspectRatioItem(
                 aspectRatioSelectedWidthRes = R.dimen.width_aspect_pin_post,
                 aspectRatioUnselectedHeightRes = R.dimen.height_aspect_pin_post,
@@ -167,16 +136,7 @@ object AspectRatioDataProvider {
                 socialActiveColor = socialActiveColor,
                 socialPassiveColor = socialPassiveColor
             ),
-            AspectRatioItem(
-                aspectRatioSelectedWidthRes = R.dimen.width_aspect_9_16,
-                aspectRatioUnselectedHeightRes = R.dimen.height_aspect_9_16,
-                aspectRatioNameRes = R.string.aspect_9_16,
-                aspectRatio = AspectRatio.ASPECT_9_16,
-                activeColor = activeColor,
-                passiveColor = passiveColor,
-                socialActiveColor = socialActiveColor,
-                socialPassiveColor = socialPassiveColor
-            ),
+           
             AspectRatioItem(
                 aspectRatioSelectedWidthRes = R.dimen.width_aspect_16_9,
                 aspectRatioUnselectedHeightRes = R.dimen.height_aspect_16_9,
@@ -187,16 +147,7 @@ object AspectRatioDataProvider {
                 socialActiveColor = socialActiveColor,
                 socialPassiveColor = socialPassiveColor
             ),
-            AspectRatioItem(
-                aspectRatioSelectedWidthRes = R.dimen.width_aspect_1_2,
-                aspectRatioUnselectedHeightRes = R.dimen.height_aspect_1_2,
-                aspectRatioNameRes = R.string.aspect_1_2,
-                aspectRatio = AspectRatio.ASPECT_1_2,
-                activeColor = activeColor,
-                passiveColor = passiveColor,
-                socialActiveColor = socialActiveColor,
-                socialPassiveColor = socialPassiveColor
-            ),
+           
             AspectRatioItem(
                 aspectRatioSelectedWidthRes = R.dimen.width_aspect_you_cover,
                 aspectRatioUnselectedHeightRes = R.dimen.height_aspect_you_cover,
