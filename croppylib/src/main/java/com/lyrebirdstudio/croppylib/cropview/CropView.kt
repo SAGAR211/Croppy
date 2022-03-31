@@ -132,7 +132,7 @@ class CropView @JvmOverloads constructor(
      * It can be ASPECT_FREE or ASPECT_X_X. Default
      * value is ASPECT_FREE
      */
-    private var selectedAspectRatio = ASPECT_FREE
+    private var selectedAspectRatio = ASPECT_INS_1_1
 
     /**
      * Aspect mode (FREE or ASPECT)
@@ -463,7 +463,7 @@ class CropView @JvmOverloads constructor(
         this.selectedAspectRatio = aspectRatio
 
         aspectAspectMode = when (aspectRatio) {
-            ASPECT_FREE -> FREE
+            ASPECT_A_5 -> ASPECT
             else -> ASPECT
         }
 
@@ -648,7 +648,7 @@ class CropView @JvmOverloads constructor(
         val widthRatio: Float
         val heightRatio: Float
 
-        if (selectedAspectRatio == ASPECT_FREE) {
+        if (selectedAspectRatio == ASPECT_A_5) {
             widthRatio = bitmapRect.width() / min(bitmapRect.width(), bitmapRect.height())
             heightRatio = bitmapRect.height() / min(bitmapRect.width(), bitmapRect.height())
         } else {

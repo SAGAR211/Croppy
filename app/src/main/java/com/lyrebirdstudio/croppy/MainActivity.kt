@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
             sourceUri = uri,
             destinationUri = destinationUri,
             requestCode = RC_CROP_IMAGE,
-            excludedAspectRatios = arrayListOf(AspectRatio.ASPECT_FREE)
+            excludedAspectRatios = arrayListOf(AspectRatio.ASPECT_A_5)
         )
 
         val themeCropRequest = CropRequest.Manual(

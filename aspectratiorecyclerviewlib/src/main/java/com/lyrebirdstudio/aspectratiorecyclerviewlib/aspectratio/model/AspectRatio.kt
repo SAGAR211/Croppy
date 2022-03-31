@@ -10,7 +10,7 @@ enum class AspectRatio(val widthRatio: Float, val heightRatio: Float) {
     ASPECT_FACE_POST(1.91f, 1f),
     ASPECT_PIN_POST(2f, 3f),
     ASPECT_3_2(3f, 2f),
-    ASPECT_16_9(16f, 9f)
+    ASPECT_16_9(16f, 9f),
     ASPECT_YOU_COVER(1.77f, 1f),
     ASPECT_TWIT_POST(1.91f, 1f),
     ASPECT_TWIT_HEADER(3f, 1f),

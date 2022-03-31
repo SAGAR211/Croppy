@@ -23,7 +23,7 @@ class ImageCropViewModel(val app: Application) : AndroidViewModel(app) {
 
     private val cropViewStateLiveData = MutableLiveData<CropFragmentViewState>()
         .apply {
-            value = CropFragmentViewState(aspectRatio = AspectRatio.ASPECT_FREE)
+            value = CropFragmentViewState(aspectRatio = AspectRatio.ASPECT_A_5)
         }
 
     private val resizedBitmapLiveData = MutableLiveData<ResizedBitmap>()
